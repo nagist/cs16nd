@@ -1035,6 +1035,7 @@ void CBaseEntity::TraceAttack(entvars_t *pevAttacker, float flDamage, Vector vec
 		return;
 
 	AddMultiDamage(pevAttacker, this, flDamage, bitsDamageType);
+
 	int blood = BloodColor();
 
 	if (blood != DONT_BLEED)

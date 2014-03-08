@@ -51,7 +51,7 @@ extern DLL_GLOBAL CONSTANT float g_flMeleeRange;
 extern DLL_GLOBAL CONSTANT float g_flMediumRange;
 extern DLL_GLOBAL CONSTANT float g_flLongRange;
 
-extern void EjectBrass(const Vector &vecOrigin, const Vector &vecVelocity, float rotation, int model, int soundtype);
+extern void EjectBrass(const Vector &vecOrigin, const Vector &vecLeft, const Vector &vecVelocity, float rotation, int model, int soundtype, int entityIndex);
 extern void EjectBrass2(const Vector &vecOrigin, const Vector &vecVelocity, float rotation, int model, int soundtype, entvars_t *pev);
 extern void ExplodeModel(const Vector &vecOrigin, float speed, int model, int count);
 
